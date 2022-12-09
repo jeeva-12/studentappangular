@@ -1,182 +1,29 @@
 
 <app-nav-bar></app-nav-bar>
 <div class="container">
-    <div class="row">
-        <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
-            <div class="row g-3">
+  <div class="row">
+      <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
 
-                <div class="col col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 col-xxl-3">
+      <table class="table table-bordered border-dark">
+          <thead>
+              <tr>
+                  <th scope="col">Name</th>
+                  <th scope="col">Admission Number</th>
+                  <th scope="col">Roll Number</th>
+                  <th scope="col">College</th>
+                  
+              </tr>
+          </thead>
+          <tbody>
+              <tr *ngFor="let i of data">
+                  <td>{{i.name}}</td>
+                  <td>{{i.admno}}</td>
+                  <td>{{i.rollno}}</td>
+                  <td>{{i.college}}</td>
+              </tr>
+          </tbody>
+      </table>
 
-                    <div class="card" >
-                        <img height="200px" width="100px"  src="https://th.bing.com/th/id/R.b200e80a274409063c9b0cb012a903f0?rik=pZsUkh5Bwu0ckQ&riu=http%3a%2f%2fdreamicus.com%2fdata%2fface%2fface-04.jpg&ehk=DoEQsxlyE6kbYi2Ye7Us61xDsyBa2nhcSv7Tg6PZ1Cc%3d&risl=&pid=ImgRaw&r=0" class="card-img-top" alt="...">
-                        <div class="card-body">
-                          <h5 class="card-title-">Details</h5>
-                          <p class="card-title-">Name:Jack</p>
-                          <p class="card-text-centre">Roll Number:1</p>
-                          <p class="card-text-centre">Admission Number:344</p>
-                          <p class="card-text-centre">Mobile:7645e</p>
-                          <p class="card-text-centre">College:KYPC shdg</p>
-                          
-                        </div>
-                      </div>
-                </div>
-                <div class="col col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 col-xxl-3">
-                    <div class="card" >
-                        <img height="200px" width="100px" src="https://purepng.com/public/uploads/large/purepng.com-man-face-herofaceshumansfrontalhuman-identityman-1421526885661w7dlt.png" class="card-img-top" alt="...">
-                        <div class="card-body">
-                          <h5 class="card-title-centre">Details</h5>
-                          <p class="card-text-centre">Name:Magee</p>
-                          <p class="card-text-centre">Roll Number:2</p>
-                          <p class="card-text-centre">Admission Number:2432524</p>
-                          <p class="card-text-centre">Mobile:2464859</p>
-                          <p class="card-text-centre">College:JKHJH jh</p>  
-                        </div>
-                </div>
-                </div>
-
-                <div class="col col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 col-xxl-3">
-
-                    <div class="card" >
-                        <img height="200px" width="100px" src="https://qodebrisbane.com/wp-content/uploads/2019/07/This-is-not-a-person-2-1.jpeg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                          <h5 class="card-title-centre">Details</h5>
-                          <p class="card-text-centre">Name:Deo</p>
-                          <p class="card-text-centre">Roll Number:3</p>
-                          <p class="card-text-centre">Admission Number:2456</p>
-                          <p class="card-text-centre">Mobile:32624</p>
-                          <p class="card-text-centre">College:LKJHGK</p>
-                          
-                        </div>
-                </div>
-                </div>
-                <div class="col col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 col-xxl-3">
-
-                    <div class="card" >
-                        <img height="200px" width="100px" src="https://wpdaddy.com/wp-content/uploads/2020/11/thispersondoesnotexist.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                          <h5 class="card-title-centre">Details</h5>
-                          <p class="card-text-centre">Name:Giyu</p>
-                          <p class="card-text-centre">Roll Number:5</p>
-                          <p class="card-text-centre">Admission Number:8765</p>
-                          <p class="card-text-centre">Mobile:0876</p>
-                          <p class="card-text-centre">College:FDshgt</p>
-                          
-                        </div>
-                </div>
-                </div>
-                <div class="col col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 col-xxl-3">
-                    <div class="card" >
-                        <img height="200px" width="100px" src="https://ak3.picdn.net/shutterstock/videos/19523383/thumb/3.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                          <h5 class="card-title-centre">Detailse</h5>
-                          <p class="card-text-centre">Name:Kriax</p>
-                          <p class="card-text-centre">Roll Number:6</p>
-                          <p class="card-text-centre">Admission Number:2345</p>
-                          <p class="card-text-centre">Mobile:765234</p>
-                          <p class="card-text-centre">College:HMGDTH</p>
-                          
-                        </div>
-                </div>
-                </div>
-                <div class="col col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 col-xxl-3">
-                    <div class="card" >
-                        <img  img height="200px" width="100px"  src="https://i.pinimg.com/originals/c3/78/03/c37803cb28336822e75380551210e10a.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                          <h5 class="card-title-centre">Details</h5>
-                          <p class="card-text-centre">Name:Thomas</p>
-                          <p class="card-text-centre">Roll Number:7</p>
-                          <p class="card-text-centre">Admission Number:6754</p>
-                          <p class="card-text-centre">Mobile:98765</p>
-                          <p class="card-text-centre">College:dbd</p>
-                          
-                        </div>
-                    </div>
-                </div>
-                <div class="col col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 col-xxl-3">
-                    <div class="card" >
-                        <img height="200px" width="100px" src="https://dm0qx8t0i9gc9.cloudfront.net/thumbnails/video/GTYSdDW/people-portrait-young-latino-man-smiling-with-happy-face_rwgj_scyg_thumbnail-1080_01.png" class="card-img-top" alt="...">
-                        <div class="card-body">
-                          <h5 class="card-title">Details</h5>
-                          <p class="card-text">Name:Hyds</p>
-                          <p class="card-text">Roll Number:8</p>
-                          <p class="card-text">Admission Number:756</p>
-                          <p class="card-text">Mobile:0986675</p>
-                          <p class="card-text">College: HGHSD</p>
-                          
-                        </div>
-                </div>
-            </div>
-                <div class="col col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 col-xxl-3">
-                    <div class="card" >
-                        <img height="200px" width="100px" src="https://th.bing.com/th/id/R.771104dbb92054286d64eaad64a3e172?rik=3PyqybdTqVs9eA&riu=http%3a%2f%2f4.bp.blogspot.com%2f-OmosR_icEQw%2fT-wyJrbr-GI%2fAAAAAAAAAcg%2fg3tgmfpqMKU%2fs1600%2fIMG_8630.jpg&ehk=QTMyrYPORQPlZ9%2bq8oLg8MaGyIybqVZfAJyiEleJ3tw%3d&risl=&pid=ImgRaw&r=0" class="card-img-top" alt="...">
-                        <div class="card-body">
-                          <h5 class="card-title-centre">Details</h5>
-                          <p class="card-text-centre">Name:Ges</p>
-                          <p class="card-text-centre">Roll Number:8</p>
-                          <p class="card-text-centre">Admission Number:4654</p>
-                          <p class="card-text-centre">Mobile:4648568</p>
-                          <p class="card-text-centre">College:GHD</p>
-                          
-                        </div>
-                </div>
-                </div>
-                <div class="col col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 col-xxl-3">
-                    <div class="card" >
-                        <img height="200px" width="100px" src="https://cdn.pixabay.com/photo/2016/05/13/12/19/face-1389832_960_720.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                          <h5 class="card-title-centre">Details</h5>
-                          <p class="card-text-centre">Name:Peet</p>
-                          <p class="card-text-centre">Roll Number:9</p>
-                          <p class="card-text-centre">Admission Number:23522</p>
-                          <p class="card-text-centre">Mobile:26859</p>
-                          <p class="card-text-centre">College:GDF</p>
-                          
-                        </div>
-                </div>
-                </div>
-                <div class="col col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 col-xxl-3">
-                    <div class="card" >
-                        <img height="200px" width="100px" src="https://th.bing.com/th/id/R.9bd9858888e33233ff0ae49c4f61496c?rik=ferMWh6eiQwSOQ&riu=http%3a%2f%2fil3.picdn.net%2fshutterstock%2fvideos%2f13717118%2fthumb%2f1.jpg&ehk=38CfRQTsCp%2bqKw%2ff6lNJDOcngd347R%2bq4K%2fiH9UN4H4%3d&risl=&pid=ImgRaw&r=0" class="card-img-top" alt="...">
-                        <div class="card-body">
-                          <h5 class="card-title-centre">Details</h5>
-                          <p class="card-text-centre">Name:Agh</p>
-                          <p class="card-text-centre">Roll Number:10</p>
-                          <p class="card-text-centre">Admission Number:46754</p>
-                          <p class="card-text-centre">Mobile:46487</p>
-                          <p class="card-text-centre">College:JKGFH</p>
-                          
-                        </div>
-                </div>
-                </div>
-                <div class="col col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 col-xxl-3">
-                    <div class="card" >
-                        <img height="200px" width="100px" src="https://purepng.com/public/uploads/medium/purepng.com-man-facefaceshumansfrontalhuman-identityman-142152688582873jim.png" class="card-img-top" alt="...">
-                        <div class="card-body">
-                          <h5 class="card-title-centre">Details</h5>
-                          <p class="card-text-centre">Name:Kira</p>
-                          <p class="card-text-centre">Roll Number:11</p>
-                          <p class="card-text-centre">Admission Number:645578</p>
-                          <p class="card-text-centre">Mobile:465796</p>
-                          <p class="card-text-centre">College:GFJHG hgs</p>
-                          
-                        </div>
-                </div>
-                </div>
-                <div class="col col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 col-xxl-3">
-                    <div class="card" >
-                        <img height="200px" width="100px" src="https://vicharkness.co.uk/wp-content/uploads/2019/03/aiface.png" class="card-img-top" alt="...">
-                        <div class="card-body">
-                          <h5 class="card-title-centre">Details</h5>
-                          <p class="card-text-centre">Name:Jon</p>
-                          <p class="card-text-centre">Roll Number:12</p>
-                          <p class="card-text-centre">Admission Number:45357</p>
-                          <p class="card-text-centre">Mobile:3565869</p>
-                          <p class="card-text-centre">College:HHVK ggf</p>
-                          
-                        </div>
-                </div>
-          </div>
-        </div>
-    </div>
+      </div>
+  </div>
 </div>
-
